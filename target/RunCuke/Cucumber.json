@@ -1,0 +1,116 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 11565496200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setup()"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "Remove lowest priced item from the cart",
+        "description": "",
+        "id": "add-to-cart-functionality;remove-lowest-priced-item-from-the-cart",
+        "after": [
+          {
+            "result": {
+              "duration": 108400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1906580400,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I add four random items to my cart",
+            "match": {
+              "location": "MyStepdefs.iAddFourRandomItemsToMyCart()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1916050500,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I view my cart",
+            "match": {
+              "location": "MyStepdefs.iViewMyCart()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 72430300,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I find total four items listed in my cart",
+            "match": {
+              "location": "MyStepdefs.iFindTotalFourItemsListedInMyCart()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 311829300,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I search for lowest price item",
+            "match": {
+              "location": "MyStepdefs.iSearchForLowestPriceItem()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 27700,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I am able to remove the lowest price item from my cart",
+            "match": {
+              "location": "MyStepdefs.iAmAbleToRemoveTheLowestPriceItemFromMyCart()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3035889200,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I am able to verify three items in my cart",
+            "match": {
+              "location": "MyStepdefs.iAmAbleToVerifyThreeItemsInMyCart()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Add to cart Functionality",
+    "description": "As user I want to check the shopping cart functionality",
+    "id": "add-to-cart-functionality",
+    "keyword": "Feature",
+    "uri": "online.feature"
+  }
+]
